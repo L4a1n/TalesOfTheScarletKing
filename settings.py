@@ -24,8 +24,8 @@ FPS = 60
 GAME_TIME = 1024
 GAME_TIME_COUNTER = 316
 GAME_NIGHT_BRIGHTNES = 13
-GAME_PLAYER_LOC = "b"
-TITLE = "Elementopia"
+GAME_PLAYER_LOC = "a"
+TITLE = "Tales of the Scarlet King"
 BGCOLOR = (0, 0, 120)
 FIRST_LEVEL = 'lvl_1.tmx'
 game_folder = path.dirname(__file__)
@@ -48,7 +48,7 @@ PLAYER_FRICTION = -0.12
 PLAYER_GRAV = 0.8
 PLAYER_JUMP = 28
 PLAYER_HEALTH = 100
-PLAYER_CURRENT_LEVEL = 'start.tmx'
+PLAYER_CURRENT_LEVEL = 'lvl_1.tmx'
 
 # NPC settings
 NPC_ACC = 0.9

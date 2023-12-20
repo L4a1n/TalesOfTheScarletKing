@@ -78,7 +78,6 @@ class Player(pg.sprite.Sprite):
         self.groups = game.all_sprites, game.player_list
         pg.sprite.Sprite.__init__(self, self.groups)
         self.game = game
-        self.type = PLAYER_COLOR
         self.frozen = False
         self.walking = False
         self.jumping = False

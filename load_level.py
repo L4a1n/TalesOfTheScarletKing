@@ -47,11 +47,6 @@ class New_level:
 
     def load_data(self, map):
         self.player_spritesheet = self.game.player_spritesheet
-        self.spritesheet = self.game.spritesheet
-        self.spritesheet2 = self.game.spritesheet2
-        self.spritesheet3 = self.game.spritesheet3
-        self.spritesheet4 = self.game.spritesheet4
-        self.spritesheet6 = self.game.spritesheet6
         self.title_font = self.game.title_font
         self.dim_screen = pg.Surface(self.screen.get_size()).convert_alpha()
         self.dim_screen.fill((8, 0, 0, 180))
@@ -100,8 +95,8 @@ class New_level:
                 for tile_object in self.map.tmxdata.objects:
                     obj_center = vec(tile_object.x + tile_object.width / 2, tile_object.y + tile_object.height / 2)
                     if tile_object.name == 'player':
-                        if self.player_location == tile_object.type:
-                            self.player = Player(self, obj_center.x, obj_center.y)
+                        #if self.player_location == tile_object.type:
+                        self.player = Player(self, obj_center.x, obj_center.y)
                     if tile_object.name == 'NPC':
                         NPC(self, obj_center.x, obj_center.y, tile_object.type)
 
