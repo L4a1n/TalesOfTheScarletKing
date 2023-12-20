@@ -1,0 +1,10 @@
+Designer : Md. Mostafizur Rahman
+Developer: Md. Mostafizur Rahman
+Portfolio: https://behance.net/rakibfiz
+Facebook: https://facebook.com/durbin475
+Email: mostafiz.rahman.r@gmail.com
+License, Version 1.0.
+No modification of the license is permitted, 
+only verbatim copy is allowed.
+This license and a FAQ is also available at: http://scripts.sil.org/OFL
+identification: MostafizurRahman: Boldhead: 2020

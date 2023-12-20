@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:0aee4fb2b91a1888214fe310febff5ba:dc3c55e11e7c9e5ab905b15d2211f277:15e4c5afba92fcc3c7b1b27f4667eb94$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="spritesheet1.png" width="512" height="1568">
+    <sprite n="Blue tiles/tileBlue_01.png" x="407" y="147" w="64" h="50"/>
+    <sprite n="Blue tiles/tileBlue_02.png" x="0" y="197" w="64" h="50"/>
+    <sprite n="Blue tiles/tileBlue_03.png" x="0" y="416" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_04.png" x="64" y="416" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_05.png" x="128" y="416" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_06.png" x="192" y="416" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_07.png" x="256" y="416" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_08.png" x="320" y="416" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_09.png" x="384" y="416" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_10.png" x="448" y="416" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_11.png" x="0" y="480" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_12.png" x="64" y="480" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_13.png" x="128" y="480" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_14.png" x="192" y="480" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_15.png" x="256" y="480" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_16.png" x="320" y="480" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_17.png" x="384" y="480" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_18.png" x="448" y="480" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_19.png" x="0" y="544" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_20.png" x="64" y="544" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_21.png" x="128" y="544" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_22.png" x="192" y="544" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_23.png" x="256" y="544" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_24.png" x="320" y="544" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_25.png" x="384" y="544" w="64" h="64"/>
+    <sprite n="Blue tiles/tileBlue_26.png" x="64" y="197" w="64" h="50"/>
+    <sprite n="Blue tiles/tileBlue_27.png" x="128" y="197" w="64" h="50"/>
+    <sprite n="Brown tiles/tileBrown_01.png" x="448" y="544" w="64" h="64"/>
+    <sprite n="Brown tiles/tileBrown_02.png" x="0" y="608" w="64" h="64"/>
+    <sprite n="Brown tiles/tileBrown_03.png" x="64" y="608" w="64" h="64"/>
+    <sprite n="Brown tiles/tileBrown_04.png" x="128" y="608" w="64" h="64"/>
+    <sprite n="Brown tiles/tileBrown_05.png" x="40" y="247" w="64" h="53"/>
+    <sprite n="Brown tiles/tileBrown_06.png" x="104" y="247" w="64" h="53"/>
+    <sprite n="Brown tiles/tileBrown_07.png" x="168" y="247" w="64" h="53"/>
+    <sprite n="Brown tiles/tileBrown_08.png" x="232" y="247" w="64" h="53"/>
+    <sprite n="Brown tiles/tileBrown_09.png" x="192" y="608" w="64" h="64"/>
+    <sprite n="Brown tiles/tileBrown_10.png" x="256" y="608" w="64" h="64"/>
+    <sprite n="Brown tiles/tileBrown_11.png" x="320" y="608" w="64" h="64"/>
+    <sprite n="Brown tiles/tileBrown_12.png" x="384" y="608" w="64" h="64"/>
+    <sprite n="Brown tiles/tileBrown_13.png" x="448" y="608" w="64" h="64"/>
+    <sprite n="Brown tiles/tileBrown_14.png" x="0" y="672" w="64" h="64"/>
+    <sprite n="Brown tiles/tileBrown_15.png" x="64" y="672" w="64" h="64"/>
+    <sprite n="Brown tiles/tileBrown_16.png" x="128" y="672" w="64" h="64"/>
+    <sprite n="Brown tiles/tileBrown_17.png" x="192" y="672" w="64" h="64"/>
+    <sprite n="Brown tiles/tileBrown_18.png" x="256" y="672" w="64" h="64"/>
+    <sprite n="Brown tiles/tileBrown_19.png" x="320" y="672" w="64" h="64"/>
+    <sprite n="Brown tiles/tileBrown_20.png" x="384" y="672" w="64" h="64"/>
+    <sprite n="Brown tiles/tileBrown_21.png" x="448" y="672" w="64" h="64"/>
+    <sprite n="Brown tiles/tileBrown_22.png" x="0" y="736" w="64" h="64"/>
+    <sprite n="Brown tiles/tileBrown_23.png" x="64" y="736" w="64" h="64"/>
+    <sprite n="Brown tiles/tileBrown_24.png" x="128" y="736" w="64" h="64"/>
+    <sprite n="Brown tiles/tileBrown_25.png" x="192" y="736" w="64" h="64"/>
+    <sprite n="Brown tiles/tileBrown_26.png" x="256" y="736" w="64" h="64"/>
+    <sprite n="Brown tiles/tileBrown_27.png" x="320" y="736" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_01.png" x="192" y="197" w="64" h="50"/>
+    <sprite n="Green tiles/tileGreen_02.png" x="256" y="197" w="64" h="50"/>
+    <sprite n="Green tiles/tileGreen_03.png" x="384" y="736" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_04.png" x="448" y="736" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_05.png" x="0" y="800" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_06.png" x="64" y="800" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_07.png" x="128" y="800" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_08.png" x="192" y="800" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_09.png" x="256" y="800" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_10.png" x="320" y="800" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_11.png" x="384" y="800" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_12.png" x="448" y="800" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_13.png" x="0" y="864" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_14.png" x="64" y="864" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_15.png" x="128" y="864" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_16.png" x="192" y="864" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_17.png" x="256" y="864" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_18.png" x="320" y="864" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_19.png" x="384" y="864" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_20.png" x="448" y="864" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_21.png" x="0" y="928" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_22.png" x="64" y="928" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_23.png" x="128" y="928" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_24.png" x="192" y="928" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_25.png" x="256" y="928" w="64" h="64"/>
+    <sprite n="Green tiles/tileGreen_26.png" x="320" y="197" w="64" h="50"/>
+    <sprite n="Green tiles/tileGreen_27.png" x="384" y="197" w="64" h="50"/>
+    <sprite n="Other/blockBrown.png" x="320" y="928" w="64" h="64"/>
+    <sprite n="Other/blockBrown_broken.png" x="384" y="928" w="64" h="64"/>
+    <sprite n="Other/blockGreen.png" x="448" y="928" w="64" h="64"/>
+    <sprite n="Other/blockGreen_key.png" x="0" y="992" w="64" h="64"/>
+    <sprite n="Other/blockGreen_lock.png" x="64" y="992" w="64" h="64"/>
+    <sprite n="Other/blockGreen_puzzle.png" x="128" y="992" w="64" h="64"/>
+    <sprite n="Other/blockGrey.png" x="192" y="992" w="64" h="64"/>
+    <sprite n="Other/blockGrey_broken.png" x="256" y="992" w="64" h="64"/>
+    <sprite n="Other/blockRed.png" x="320" y="992" w="64" h="64"/>
+    <sprite n="Other/blockRed_key.png" x="384" y="992" w="64" h="64"/>
+    <sprite n="Other/blockRed_lock.png" x="448" y="992" w="64" h="64"/>
+    <sprite n="Other/blockRed_puzzle.png" x="0" y="1056" w="64" h="64"/>
+    <sprite n="Other/buttonFloor.png" x="118" y="0" w="54" h="12"/>
+    <sprite n="Other/buttonFloor_pressed.png" x="0" y="0" w="54" h="8"/>
+    <sprite n="Other/buttonGreen.png" x="0" y="28" w="50" h="29"/>
+    <sprite n="Other/buttonGreen_pressed.png" x="172" y="0" w="50" h="17"/>
+    <sprite n="Other/buttonRed.png" x="50" y="28" w="50" h="29"/>
+    <sprite n="Other/buttonRed_pressed.png" x="222" y="0" w="50" h="17"/>
+    <sprite n="Other/doorGreen.png" x="64" y="1056" w="64" h="64"/>
+    <sprite n="Other/doorGreen_lock.png" x="128" y="1056" w="64" h="64"/>
+    <sprite n="Other/doorGreen_top.png" x="192" y="1056" w="64" h="64"/>
+    <sprite n="Other/doorOpen.png" x="256" y="1056" w="64" h="64"/>
+    <sprite n="Other/doorOpen_top.png" x="320" y="1056" w="64" h="64"/>
+    <sprite n="Other/doorRed.png" x="384" y="1056" w="64" h="64"/>
+    <sprite n="Other/doorRed_lock.png" x="448" y="1056" w="64" h="64"/>
+    <sprite n="Other/doorRed_top.png" x="0" y="1120" w="64" h="64"/>
+    <sprite n="Other/fence.png" x="96" y="102" w="64" h="45"/>
+    <sprite n="Other/fenceBroken.png" x="160" y="102" w="64" h="45"/>
+    <sprite n="Other/fenceLeft.png" x="224" y="102" w="64" h="45"/>
+    <sprite n="Other/fenceMid.png" x="288" y="102" w="64" h="45"/>
+    <sprite n="Other/fenceOpen.png" x="352" y="102" w="64" h="45"/>
+    <sprite n="Other/fenceRight.png" x="416" y="102" w="64" h="45"/>
+    <sprite n="Other/flagGreen_down.png" x="306" y="355" w="15" h="61"/>
+    <sprite n="Other/flagGreen_up.png" x="321" y="355" w="59" h="61"/>
+    <sprite n="Other/flagRed_down.png" x="380" y="355" w="15" h="61"/>
+    <sprite n="Other/flagRed_up.png" x="395" y="355" w="59" h="61"/>
+    <sprite n="Other/fluidBlue.png" x="64" y="1120" w="64" h="64"/>
+    <sprite n="Other/fluidBlue_top.png" x="128" y="1120" w="64" h="64"/>
+    <sprite n="Other/fluidBrown.png" x="320" y="736" w="64" h="64"/>
+    <sprite n="Other/fluidBrown_top.png" x="192" y="1120" w="64" h="64"/>
+    <sprite n="Other/fluidGreen.png" x="256" y="1120" w="64" h="64"/>
+    <sprite n="Other/fluidGreen_top.png" x="320" y="1120" w="64" h="64"/>
+    <sprite n="Other/fluidRed.png" x="384" y="1120" w="64" h="64"/>
+    <sprite n="Other/fluidRed_top.png" x="448" y="1120" w="64" h="64"/>
+    <sprite n="Other/ladderNarrow_mid.png" x="0" y="1184" w="56" h="64"/>
+    <sprite n="Other/ladderNarrow_top.png" x="229" y="147" w="56" h="48"/>
+    <sprite n="Other/ladderWide_mid.png" x="56" y="1184" w="64" h="64"/>
+    <sprite n="Other/ladderWide_top.png" x="285" y="147" w="64" h="48"/>
+    <sprite n="Other/lockGreen.png" x="120" y="1184" w="64" h="64"/>
+    <sprite n="Other/lockGreenBottom.png" x="184" y="1184" w="64" h="64"/>
+    <sprite n="Other/lockGreenLeft.png" x="248" y="1184" w="64" h="64"/>
+    <sprite n="Other/lockGreenLock.png" x="312" y="1184" w="64" h="64"/>
+    <sprite n="Other/lockGreenMid.png" x="376" y="1184" w="64" h="64"/>
+    <sprite n="Other/lockGreenRight.png" x="440" y="1184" w="64" h="64"/>
+    <sprite n="Other/lockGreenTop.png" x="0" y="1248" w="64" h="64"/>
+    <sprite n="Other/lockRed.png" x="64" y="1248" w="64" h="64"/>
+    <sprite n="Other/lockRedBottom.png" x="128" y="1248" w="64" h="64"/>
+    <sprite n="Other/lockRedLeft.png" x="192" y="1248" w="64" h="64"/>
+    <sprite n="Other/lockRedLock.png" x="256" y="1248" w="64" h="64"/>
+    <sprite n="Other/lockRedMid.png" x="384" y="1120" w="64" h="64"/>
+    <sprite n="Other/lockRedRight.png" x="320" y="1248" w="64" h="64"/>
+    <sprite n="Other/lockRedTop.png" x="384" y="1248" w="64" h="64"/>
+    <sprite n="Other/plantBlue_1.png" x="349" y="147" w="26" h="48"/>
+    <sprite n="Other/plantBlue_2.png" x="438" y="28" w="44" h="34"/>
+    <sprite n="Other/plantBlue_3.png" x="358" y="0" w="42" h="24"/>
+    <sprite n="Other/plantBlue_4.png" x="250" y="300" w="29" h="55"/>
+    <sprite n="Other/plantBlue_5.png" x="272" y="0" w="44" h="22"/>
+    <sprite n="Other/plantBlue_6.png" x="353" y="62" w="34" h="39"/>
+    <sprite n="Other/plantBottom_1.png" x="448" y="1248" w="28" h="64"/>
+    <sprite n="Other/plantBottom_2.png" x="476" y="1248" w="36" h="64"/>
+    <sprite n="Other/plantDark_1.png" x="106" y="62" w="38" h="37"/>
+    <sprite n="Other/plantDark_2.png" x="195" y="28" w="36" h="31"/>
+    <sprite n="Other/plantDark_3.png" x="448" y="197" w="26" h="50"/>
+    <sprite n="Other/plantDark_4.png" x="375" y="147" w="32" h="49"/>
+    <sprite n="Other/plantDark_5.png" x="329" y="28" w="28" h="32"/>
+    <sprite n="Other/plantDark_6.png" x="252" y="62" w="27" h="38"/>
+    <sprite n="Other/plantGreen_1.png" x="52" y="102" w="44" h="44"/>
+    <sprite n="Other/plantGreen_2.png" x="357" y="28" w="44" h="32"/>
+    <sprite n="Other/plantGreen_3.png" x="231" y="28" w="36" h="31"/>
+    <sprite n="Other/plantGreen_4.png" x="474" y="197" w="29" h="50"/>
+    <sprite n="Other/plantGreen_5.png" x="0" y="147" w="41" h="47"/>
+    <sprite n="Other/plantGreen_6.png" x="0" y="62" w="42" h="36"/>
+    <sprite n="Other/plantLeaves_1.png" x="0" y="1312" w="38" h="64"/>
+    <sprite n="Other/plantLeaves_3.png" x="38" y="1312" w="38" h="64"/>
+    <sprite n="Other/plantRed_1.png" x="100" y="28" w="31" h="30"/>
+    <sprite n="Other/plantRed_2.png" x="464" y="0" w="30" h="28"/>
+    <sprite n="Other/plantRed_3.png" x="316" y="0" w="42" h="23"/>
+    <sprite n="Other/plantRed_4.png" x="144" y="62" w="34" h="37"/>
+    <sprite n="Other/plantRed_5.png" x="401" y="28" w="37" h="32"/>
+    <sprite n="Other/plantRed_6.png" x="0" y="247" w="40" h="50"/>
+    <sprite n="Other/plantStem_cornerLeft.png" x="178" y="62" w="36" h="37"/>
+    <sprite n="Other/plantStem_cornerRight.png" x="214" y="62" w="38" h="37"/>
+    <sprite n="Other/plantStem_cross.png" x="150" y="1312" w="64" h="64"/>
+    <sprite n="Other/plantStem_horizontal.png" x="54" y="0" w="64" h="10"/>
+    <sprite n="Other/plantStem_Tleft.png" x="76" y="1312" w="38" h="64"/>
+    <sprite n="Other/plantStem_Tright.png" x="114" y="1312" w="36" h="64"/>
+    <sprite n="Other/plantStem_vertical.png" x="214" y="1312" w="10" h="64"/>
+    <sprite n="Other/plantThorns_horizontal.png" x="42" y="62" w="64" h="36"/>
+    <sprite n="Other/plantThorns_vertical.png" x="224" y="1312" w="36" h="64"/>
+    <sprite n="Other/plantTop_blue.png" x="64" y="300" w="62" h="54"/>
+    <sprite n="Other/plantTop_leaves.png" x="267" y="28" w="62" h="31"/>
+    <sprite n="Other/plantTop_red.png" x="126" y="300" w="62" h="54"/>
+    <sprite n="Other/plantTop_yellow.png" x="188" y="300" w="62" h="54"/>
+    <sprite n="Other/signArrow.png" x="387" y="62" w="48" h="39"/>
+    <sprite n="Other/signArrow_BL.png" x="279" y="300" w="42" h="55"/>
+    <sprite n="Other/signArrow_BR.png" x="321" y="300" w="41" h="55"/>
+    <sprite n="Other/signArrow_down.png" x="168" y="355" w="39" h="58"/>
+    <sprite n="Other/signArrow_left.png" x="446" y="300" w="48" h="55"/>
+    <sprite n="Other/signArrow_right.png" x="0" y="355" w="48" h="55"/>
+    <sprite n="Other/signArrow_TL.png" x="362" y="300" w="42" h="55"/>
+    <sprite n="Other/signArrow_TR.png" x="404" y="300" w="42" h="55"/>
+    <sprite n="Other/signArrow_up.png" x="207" y="355" w="39" h="58"/>
+    <sprite n="Other/signLarge.png" x="48" y="355" w="64" h="55"/>
+    <sprite n="Other/signpost.png" x="156" y="355" w="12" h="55"/>
+    <sprite n="Other/signSmall.png" x="112" y="355" w="44" h="55"/>
+    <sprite n="Other/spikesHigh.png" x="131" y="28" w="64" h="30"/>
+    <sprite n="Other/spikesLow.png" x="400" y="0" w="64" h="26"/>
+    <sprite n="Other/Stone_64.png" x="289" y="62" w="64" h="39" oX="0" oY="25" oW="64" oH="64"/>
+    <sprite n="Other/switchGreen_left.png" x="41" y="147" w="47" h="47"/>
+    <sprite n="Other/switchGreen_mid.png" x="246" y="355" w="30" h="58"/>
+    <sprite n="Other/switchGreen_off.png" x="435" y="62" w="26" h="40"/>
+    <sprite n="Other/switchGreen_on.png" x="461" y="62" w="26" h="40"/>
+    <sprite n="Other/switchGreen_right.png" x="88" y="147" w="47" h="47"/>
+    <sprite n="Other/switchRed_left.png" x="135" y="147" w="47" h="47"/>
+    <sprite n="Other/switchRed_mid.png" x="276" y="355" w="30" h="58"/>
+    <sprite n="Other/switchRed_off.png" x="0" y="102" w="26" h="40"/>
+    <sprite n="Other/switchRed_on.png" x="26" y="102" w="26" h="40"/>
+    <sprite n="Other/switchRed_right.png" x="182" y="147" w="47" h="47"/>
+    <sprite n="Other/vine.png" x="260" y="1312" w="10" h="64"/>
+    <sprite n="Other/vine_bottom.png" x="279" y="62" w="10" h="38"/>
+    <sprite n="Other/vine_bottomAlt.png" x="480" y="102" w="25" h="45"/>
+    <sprite n="Yellow tiles/tileYellow_01.png" x="296" y="247" w="64" h="53"/>
+    <sprite n="Yellow tiles/tileYellow_02.png" x="360" y="247" w="64" h="53"/>
+    <sprite n="Yellow tiles/tileYellow_03.png" x="424" y="247" w="64" h="53"/>
+    <sprite n="Yellow tiles/tileYellow_04.png" x="256" y="1120" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_05.png" x="270" y="1312" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_06.png" x="334" y="1312" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_07.png" x="398" y="1312" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_08.png" x="0" y="1376" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_09.png" x="64" y="1376" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_10.png" x="128" y="1376" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_11.png" x="192" y="1376" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_12.png" x="256" y="1376" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_13.png" x="320" y="1376" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_14.png" x="384" y="1376" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_15.png" x="448" y="1376" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_16.png" x="0" y="1440" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_17.png" x="64" y="1440" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_18.png" x="128" y="1440" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_19.png" x="192" y="1440" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_20.png" x="256" y="1440" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_21.png" x="320" y="1440" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_22.png" x="384" y="1440" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_23.png" x="448" y="1440" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_24.png" x="0" y="1504" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_25.png" x="64" y="1504" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_26.png" x="128" y="1504" w="64" h="64"/>
+    <sprite n="Yellow tiles/tileYellow_27.png" x="0" y="300" w="64" h="53"/>
+</TextureAtlas>

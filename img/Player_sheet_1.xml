@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:17b3a441f6a86450318654606b161356:bfab3d8bdd93e2cacabdeb667366897c:c77d8c54577951215716f35e12093b06$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="Player_sheet_1.png" width="100" height="1850">
+    <sprite n="adventurer-air-attack1/adventurer-air-attack1-00.png" x="0" y="0" w="50" h="37"/>
+    <sprite n="adventurer-air-attack1/adventurer-air-attack1-01.png" x="50" y="0" w="50" h="37"/>
+    <sprite n="adventurer-air-attack1/adventurer-air-attack1-02.png" x="0" y="37" w="50" h="37"/>
+    <sprite n="adventurer-air-attack1/adventurer-air-attack1-03.png" x="50" y="37" w="50" h="37"/>
+    <sprite n="adventurer-air-attack2/adventurer-air-attack2-00.png" x="0" y="74" w="50" h="37"/>
+    <sprite n="adventurer-air-attack2/adventurer-air-attack2-01.png" x="50" y="74" w="50" h="37"/>
+    <sprite n="adventurer-air-attack2/adventurer-air-attack2-02.png" x="0" y="111" w="50" h="37"/>
+    <sprite n="adventurer-air-attack3/adventurer-air-attack-3-end-00.png" x="50" y="111" w="50" h="37"/>
+    <sprite n="adventurer-air-attack3/adventurer-air-attack-3-end-01.png" x="0" y="148" w="50" h="37"/>
+    <sprite n="adventurer-air-attack3/adventurer-air-attack-3-end-02.png" x="50" y="148" w="50" h="37"/>
+    <sprite n="adventurer-air-attack3/adventurer-air-attack3-loop-00.png" x="0" y="185" w="50" h="37"/>
+    <sprite n="adventurer-air-attack3/adventurer-air-attack3-loop-01.png" x="50" y="185" w="50" h="37"/>
+    <sprite n="adventurer-air-attack3/adventurer-air-attack3-rdy-00.png" x="0" y="222" w="50" h="37"/>
+    <sprite n="adventurer-attack1/adventurer-attack1-00.png" x="50" y="222" w="50" h="37"/>
+    <sprite n="adventurer-attack1/adventurer-attack1-01.png" x="0" y="259" w="50" h="37"/>
+    <sprite n="adventurer-attack1/adventurer-attack1-02.png" x="50" y="259" w="50" h="37"/>
+    <sprite n="adventurer-attack1/adventurer-attack1-03.png" x="0" y="296" w="50" h="37"/>
+    <sprite n="adventurer-attack1/adventurer-attack1-04.png" x="50" y="296" w="50" h="37"/>
+    <sprite n="adventurer-attack2/adventurer-attack2-00.png" x="0" y="333" w="50" h="37"/>
+    <sprite n="adventurer-attack2/adventurer-attack2-01.png" x="50" y="333" w="50" h="37"/>
+    <sprite n="adventurer-attack2/adventurer-attack2-02.png" x="0" y="370" w="50" h="37"/>
+    <sprite n="adventurer-attack2/adventurer-attack2-03.png" x="50" y="370" w="50" h="37"/>
+    <sprite n="adventurer-attack2/adventurer-attack2-04.png" x="0" y="407" w="50" h="37"/>
+    <sprite n="adventurer-attack2/adventurer-attack2-05.png" x="50" y="407" w="50" h="37"/>
+    <sprite n="adventurer-attack3/adventurer-attack3-00.png" x="0" y="444" w="50" h="37"/>
+    <sprite n="adventurer-attack3/adventurer-attack3-01.png" x="50" y="444" w="50" h="37"/>
+    <sprite n="adventurer-attack3/adventurer-attack3-02.png" x="0" y="481" w="50" h="37"/>
+    <sprite n="adventurer-attack3/adventurer-attack3-03.png" x="50" y="481" w="50" h="37"/>
+    <sprite n="adventurer-attack3/adventurer-attack3-04.png" x="0" y="518" w="50" h="37"/>
+    <sprite n="adventurer-attack3/adventurer-attack3-05.png" x="50" y="518" w="50" h="37"/>
+    <sprite n="adventurer-cast/adventurer-cast-00.png" x="0" y="555" w="50" h="37"/>
+    <sprite n="adventurer-cast/adventurer-cast-01.png" x="50" y="555" w="50" h="37"/>
+    <sprite n="adventurer-cast/adventurer-cast-02.png" x="0" y="592" w="50" h="37"/>
+    <sprite n="adventurer-cast/adventurer-cast-03.png" x="50" y="592" w="50" h="37"/>
+    <sprite n="adventurer-cast/adventurer-cast-loop-00.png" x="0" y="629" w="50" h="37"/>
+    <sprite n="adventurer-cast/adventurer-cast-loop-01.png" x="50" y="629" w="50" h="37"/>
+    <sprite n="adventurer-cast/adventurer-cast-loop-02.png" x="0" y="666" w="50" h="37"/>
+    <sprite n="adventurer-cast/adventurer-cast-loop-03.png" x="50" y="666" w="50" h="37"/>
+    <sprite n="adventurer-crnr-climb/adventurer-crnr-clmb-00.png" x="0" y="703" w="50" h="37"/>
+    <sprite n="adventurer-crnr-climb/adventurer-crnr-clmb-01.png" x="50" y="703" w="50" h="37"/>
+    <sprite n="adventurer-crnr-climb/adventurer-crnr-clmb-02.png" x="0" y="740" w="50" h="37"/>
+    <sprite n="adventurer-crnr-climb/adventurer-crnr-clmb-03.png" x="50" y="740" w="50" h="37"/>
+    <sprite n="adventurer-crnr-climb/adventurer-crnr-clmb-04.png" x="0" y="777" w="50" h="37"/>
+    <sprite n="adventurer-crnr-grb/adventurer-crnr-grb-00.png" x="50" y="777" w="50" h="37"/>
+    <sprite n="adventurer-crnr-grb/adventurer-crnr-grb-01.png" x="0" y="814" w="50" h="37"/>
+    <sprite n="adventurer-crnr-grb/adventurer-crnr-grb-02.png" x="50" y="814" w="50" h="37"/>
+    <sprite n="adventurer-crnr-grb/adventurer-crnr-grb-03.png" x="0" y="851" w="50" h="37"/>
+    <sprite n="adventurer-crnr-jump/adventurer-crnr-jmp-00.png" x="50" y="851" w="50" h="37"/>
+    <sprite n="adventurer-crnr-jump/adventurer-crnr-jmp-01.png" x="0" y="888" w="50" h="37"/>
+    <sprite n="adventurer-crouch/adventurer-crouch-00.png" x="50" y="888" w="50" h="37"/>
+    <sprite n="adventurer-crouch/adventurer-crouch-01.png" x="0" y="925" w="50" h="37"/>
+    <sprite n="adventurer-crouch/adventurer-crouch-02.png" x="50" y="925" w="50" h="37"/>
+    <sprite n="adventurer-crouch/adventurer-crouch-03.png" x="0" y="962" w="50" h="37"/>
+    <sprite n="adventurer-die/adventurer-die-00.png" x="50" y="962" w="50" h="37"/>
+    <sprite n="adventurer-die/adventurer-die-01.png" x="0" y="999" w="50" h="37"/>
+    <sprite n="adventurer-die/adventurer-die-02.png" x="50" y="999" w="50" h="37"/>
+    <sprite n="adventurer-die/adventurer-die-03.png" x="0" y="1036" w="50" h="37"/>
+    <sprite n="adventurer-die/adventurer-die-04.png" x="50" y="1036" w="50" h="37"/>
+    <sprite n="adventurer-die/adventurer-die-05.png" x="0" y="1073" w="50" h="37"/>
+    <sprite n="adventurer-die/adventurer-die-06.png" x="50" y="1073" w="50" h="37"/>
+    <sprite n="adventurer-fall/adventurer-fall-00.png" x="0" y="1110" w="50" h="37"/>
+    <sprite n="adventurer-fall/adventurer-fall-01.png" x="50" y="1110" w="50" h="37"/>
+    <sprite n="adventurer-hurt/adventurer-hurt-00.png" x="0" y="1147" w="50" h="37"/>
+    <sprite n="adventurer-hurt/adventurer-hurt-01.png" x="50" y="1147" w="50" h="37"/>
+    <sprite n="adventurer-hurt/adventurer-hurt-02.png" x="0" y="1184" w="50" h="37"/>
+    <sprite n="adventurer-idle1/adventurer-idle-00.png" x="50" y="1184" w="50" h="37"/>
+    <sprite n="adventurer-idle1/adventurer-idle-01.png" x="0" y="1221" w="50" h="37"/>
+    <sprite n="adventurer-idle1/adventurer-idle-02.png" x="50" y="1221" w="50" h="37"/>
+    <sprite n="adventurer-idle1/adventurer-idle-03.png" x="0" y="1258" w="50" h="37"/>
+    <sprite n="adventurer-idle2/adventurer-idle-2-00.png" x="50" y="1258" w="50" h="37"/>
+    <sprite n="adventurer-idle2/adventurer-idle-2-01.png" x="0" y="1295" w="50" h="37"/>
+    <sprite n="adventurer-idle2/adventurer-idle-2-02.png" x="50" y="1295" w="50" h="37"/>
+    <sprite n="adventurer-idle2/adventurer-idle-2-03.png" x="0" y="1332" w="50" h="37"/>
+    <sprite n="adventurer-items/adventurer-items-00.png" x="50" y="1332" w="50" h="37"/>
+    <sprite n="adventurer-items/adventurer-items-01.png" x="0" y="1369" w="50" h="37"/>
+    <sprite n="adventurer-items/adventurer-items-02.png" x="50" y="1369" w="50" h="37"/>
+    <sprite n="adventurer-jump/adventurer-jump-00.png" x="0" y="1406" w="50" h="37"/>
+    <sprite n="adventurer-jump/adventurer-jump-01.png" x="50" y="1406" w="50" h="37"/>
+    <sprite n="adventurer-jump/adventurer-jump-02.png" x="0" y="1443" w="50" h="37"/>
+    <sprite n="adventurer-jump/adventurer-jump-03.png" x="50" y="1443" w="50" h="37"/>
+    <sprite n="adventurer-run/adventurer-run-00.png" x="0" y="1480" w="50" h="37"/>
+    <sprite n="adventurer-run/adventurer-run-01.png" x="50" y="1480" w="50" h="37"/>
+    <sprite n="adventurer-run/adventurer-run-02.png" x="0" y="1517" w="50" h="37"/>
+    <sprite n="adventurer-run/adventurer-run-03.png" x="50" y="1517" w="50" h="37"/>
+    <sprite n="adventurer-run/adventurer-run-04.png" x="0" y="1554" w="50" h="37"/>
+    <sprite n="adventurer-run/adventurer-run-05.png" x="50" y="1554" w="50" h="37"/>
+    <sprite n="adventurer-slide/adventurer-slide-00.png" x="0" y="1591" w="50" h="37"/>
+    <sprite n="adventurer-slide/adventurer-slide-01.png" x="50" y="1591" w="50" h="37"/>
+    <sprite n="adventurer-stand/adventurer-stand-00.png" x="0" y="1628" w="50" h="37"/>
+    <sprite n="adventurer-stand/adventurer-stand-01.png" x="50" y="1628" w="50" h="37"/>
+    <sprite n="adventurer-stand/adventurer-stand-02.png" x="0" y="1665" w="50" h="37"/>
+    <sprite n="adventurer-swrd-drw/adventurer-swrd-drw-00.png" x="50" y="1665" w="50" h="37"/>
+    <sprite n="adventurer-swrd-drw/adventurer-swrd-drw-01.png" x="0" y="1702" w="50" h="37"/>
+    <sprite n="adventurer-swrd-drw/adventurer-swrd-drw-02.png" x="50" y="1702" w="50" h="37"/>
+    <sprite n="adventurer-swrd-drw/adventurer-swrd-drw-03.png" x="0" y="1739" w="50" h="37"/>
+    <sprite n="adventurer-swrd-shte/adventurer-swrd-shte-00.png" x="50" y="1739" w="50" h="37"/>
+    <sprite n="adventurer-swrd-shte/adventurer-swrd-shte-01.png" x="0" y="1776" w="50" h="37"/>
+    <sprite n="adventurer-swrd-shte/adventurer-swrd-shte-02.png" x="50" y="1776" w="50" h="37"/>
+    <sprite n="adventurer-swrd-shte/adventurer-swrd-shte-03.png" x="0" y="1813" w="50" h="37"/>
+</TextureAtlas>
