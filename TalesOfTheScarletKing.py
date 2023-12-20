@@ -14,13 +14,10 @@ class Game:
         pg.mixer.pre_init(44100, -16, 1, 2048)
         pg.init()
         self.screen = pg.display.set_mode((WIDTH, HEIGHT), pg.FULLSCREEN)
-        ICON = pg.image.load("img/playerBlue_stand.png").convert_alpha()
-        self.icon = pg.display.set_icon(ICON)
         pg.display.set_caption(TITLE)
         self.clock = pg.time.Clock()
         self.load_data()
         self.player_location = GAME_PLAYER_LOC
-        self.player_char = PLAYER_COLOR
         self.current_level = FIRST_LEVEL
         self.time = GAME_TIME
         self.time_counter = GAME_TIME_COUNTER, GAME_NIGHT_BRIGHTNES
@@ -56,12 +53,6 @@ class Game:
         font_folder = path.join(game_folder, 'fonts')
         self.map_folder = path.join(game_folder, 'maps')
         self.player_spritesheet = Spritesheet(path.join(img_folder, PLAYER_SPRITESHEET))
-        self.spritesheet = Spritesheet(path.join(img_folder, SPRITESHEET))
-        self.spritesheet2 = Spritesheet(path.join(img_folder, SPRITESHEET2))
-        self.spritesheet3 = Spritesheet(path.join(img_folder, SPRITESHEET3))
-        self.spritesheet4 = Spritesheet(path.join(img_folder, SPRITESHEET4))
-        self.spritesheet5 = Spritesheet(path.join(img_folder, SPRITESHEET5))
-        self.spritesheet6 = Spritesheet(path.join(img_folder, SPRITESHEET6))
         self.title_font = path.join(font_folder, 'Boldhead.otf')
 
     def loading(self):

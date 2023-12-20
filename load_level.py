@@ -13,7 +13,6 @@ class New_level:
         self.current_level = level
         self.next_level = ""
         self.player_location = player_location
-        self.player_char = self.game.player_char
         self.clock = pg.time.Clock()
         self.time = self.game.time
         self.time_counter = time_counter[0]

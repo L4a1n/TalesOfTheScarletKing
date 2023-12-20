@@ -1,7 +1,6 @@
 import pygame as pg
 import time
 from os import path
-import ctypes
 import pickle
 vec = pg.math.Vector2
 
@@ -20,8 +19,7 @@ BLUE = (0, 0, 255)
 BROWN = (106, 55, 5)
 
 # game settings
-user32 = ctypes.windll.user32
-WIDTH, HEIGHT = user32.GetSystemMetrics(0), user32.GetSystemMetrics(1)
+WIDTH, HEIGHT = 900, 1200
 FPS = 60
 GAME_TIME = 1024
 GAME_TIME_COUNTER = 316

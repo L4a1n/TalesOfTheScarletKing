@@ -19,10 +19,9 @@ class Start_screen:
         self.all_sprites = pg.sprite.LayeredUpdates()
         self.player_list = pg.sprite.Group()
         self.player_spritesheet = self.game.player_spritesheet
-        self.spritesheet3 = self.game.spritesheet3
         self.bg_color = (17, 17, 17)
-        self.bg_img = pg.image.load("img/bg_img_1.png").convert_alpha()
-        self.bg_img = pg.transform.scale(self.bg_img, (1100, 1100))
+        #self.bg_img = pg.image.load("img/bg_img_1.png").convert_alpha()
+        #self.bg_img = pg.transform.scale(self.bg_img, (1100, 1100))
         self.start_button = Button("Start", 250, 400, 150, 70, (17, 17, 17))
         self.quit_button = Button("Quit", 250, 540, 150, 70, (17, 17, 17))
         self.anim = Animation(self, 1160, 310, "player")
@@ -57,7 +56,7 @@ class Start_screen:
 
     def draw(self):
         self.screen.fill(self.bg_color)
-        self.screen.blit(self.bg_img, (600, 0))
+        #self.screen.blit(self.bg_img, (600, 0))
         for sprite in self.all_sprites:
             self.screen.blit(sprite.image, self.camera.apply(sprite))
         self.start_button.draw(self.screen)
