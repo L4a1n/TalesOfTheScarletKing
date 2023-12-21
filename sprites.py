@@ -11,7 +11,7 @@ class Spritesheet:
     # utility class for loading and parsing spritesheets
     def __init__(self, filename):
         self.spritesheet = pg.image.load(filename).convert()
-        self.scale = 4.5
+        self.scale = SPRITE_SCALE
 
     def get_image(self, x, y, width, height):
         # grab an image out of a larger spritesheet
@@ -776,48 +776,3 @@ class Portal(pg.sprite.DirtySprite):
             self.game.player_location = self.name
             print(self.game.next_level)
             self.game.playing = False
-
-
-class MuzzleFlash(pg.sprite.Sprite):
-    def __init__(self, game, pos):
-        self._layer = EFFECTS_LAYER
-        self.groups = game.all_sprites
-        pg.sprite.Sprite.__init__(self, self.groups)
-        self.game = game
-        size = randint(20, 50)
-        self.image = pg.transform.scale(choice(game.gun_flashes), (size, size))
-        self.rect = self.image.get_rect()
-        self.hit_rect = self.rect
-        self.pos = pos
-        self.rect.center = pos
-        self.spawn_time = pg.time.get_ticks()
-
-    def update(self):
-        if pg.time.get_ticks() - self.spawn_time > FLASH_DURATION:
-            self.kill()
-
-
-class Item(pg.sprite.Sprite):
-    def __init__(self, game, pos, type):
-        self._layer = ITEMS_LAYER
-        self.groups = game.all_sprites, game.items
-        pg.sprite.Sprite.__init__(self, self.groups)
-        self.game = game
-        self.image = game.item_images[type]
-        self.rect = self.image.get_rect()
-        self.hit_rect = self.rect
-        self.type = type
-        self.pos = pos
-        self.rect.center = pos
-        self.tween = tween.easeInOutSine
-        self.step = 0
-        self.dir = 1
-
-    def update(self):
-        # bobbing motion
-        offset = BOB_RANGE * (self.tween(self.step / BOB_RANGE) - 0.5)
-        self.rect.centery = self.pos.y + offset * self.dir
-        self.step += BOB_SPEED
-        if self.step > BOB_RANGE:
-            self.step = 0
-            self.dir *= -1

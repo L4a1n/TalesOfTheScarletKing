@@ -76,6 +76,7 @@ EFFECTS_LAYER = 4
 ITEMS_LAYER = 1
 
 # Spritesheets
+SPRITE_SCALE = 4.5
 PLAYER_SPRITESHEET = "Player_sheet_1.png"
 
 # Spritesheet xml
