@@ -7,16 +7,13 @@ from animations import Animation
 
 
 class New_level:
-    def __init__(self, game, screen, level, time_counter, player_location):
+    def __init__(self, game, screen, level, player_location):
         self.screen = screen
         self.game = game
         self.current_level = level
         self.next_level = ""
         self.player_location = player_location
         self.clock = pg.time.Clock()
-        self.time = self.game.time
-        self.time_counter = time_counter[0]
-        self.night_brightnes = time_counter[1]
         self.load_data(self.current_level)
         self.stats = PLAYER_HEALTH, PLAYER_CURRENT_LEVEL
            ### Muss in der Safe-Datei gespeichert werden

@@ -19,9 +19,6 @@ class Game:
         self.load_data()
         self.player_location = GAME_PLAYER_LOC
         self.current_level = FIRST_LEVEL
-        self.time = GAME_TIME
-        self.time_counter = GAME_TIME_COUNTER, GAME_NIGHT_BRIGHTNES
-        self.new_time_counter = self.time_counter
 
     def draw_text(self, text, font_name, size, color, x, y, align="nw"):
         font = pg.font.Font(font_name, size)
@@ -56,7 +53,7 @@ class Game:
         self.title_font = path.join(font_folder, 'Boldhead.otf')
 
     def loading(self):
-        self.load_level = New_level(self, self.screen, self.current_level, self.new_time_counter, self.player_location)
+        self.load_level = New_level(self, self.screen, self.current_level, self.player_location)
         self.load_level.new()
         self.load_level.run()
         self.current_level = self.load_level.load_next_level()

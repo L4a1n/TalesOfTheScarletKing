@@ -1,8 +1,8 @@
 import pygame as pg
 import time
 from os import path
-import pickle
 vec = pg.math.Vector2
+import screeninfo
 
 pg.init()
 
@@ -19,11 +19,20 @@ BLUE = (0, 0, 255)
 BROWN = (106, 55, 5)
 
 # game settings
-WIDTH, HEIGHT = 900, 1200
+main_monitor = None
+try:
+    monitors = screeninfo.get_monitors()
+    if monitors:
+        main_monitor = next((e for e in monitors if e.is_primary), monitors[0])
+        if main_monitor.is_primary:
+            print(f'Using primary monitor: {main_monitor}')
+        else:
+            print('No primary monitor found, using first monitor instead')
+except:
+    print('No monitors found')
+WIDTH, HEIGHT = main_monitor.x, main_monitor.y
+
 FPS = 60
-GAME_TIME = 1024
-GAME_TIME_COUNTER = 316
-GAME_NIGHT_BRIGHTNES = 13
 GAME_PLAYER_LOC = "a"
 TITLE = "Tales of the Scarlet King"
 BGCOLOR = (0, 0, 120)
