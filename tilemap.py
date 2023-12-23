@@ -9,8 +9,9 @@ def collide_hit_rect(one, two):
 class TiledMap:
     def __init__(self, filename):
         tm = pytmx.load_pygame(filename, pixelapha=True)
-        self.width = tm.width * tm.tilewidth
-        self.height = tm.height * tm.tileheight
+        self.width = (tm.width * tm.tilewidth)
+        self.height = (tm.height * tm.tileheight)
+        print(self.width, self.height)
         self.tmxdata = tm
 
     def render(self, surface):

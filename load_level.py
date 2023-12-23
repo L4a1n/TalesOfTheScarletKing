@@ -50,10 +50,6 @@ class New_level:
         self.map = TiledMap(path.join(self.game.map_folder, map))
         self.map_image = self.map.make_map()
         self.map_rect = self.map_image.get_rect()
-
-        self.night = pg.Surface(self.screen.get_size()).convert_alpha()
-        self.night.fill((10, 10, 10, self.night_brightnes))
-
         # Sound loading
 
     def new(self):
@@ -107,7 +103,6 @@ class New_level:
         self.camera = Camera(self.map.width, self.map.height)
         self.draw_debug = False
         self.paused = False
-        print(self.player_location)
         # self.effects_sounds['level_start'].play()
 
     def load_next_level(self):
@@ -125,8 +120,6 @@ class New_level:
         # pg.mixer.music.play(loops=-1)
         while self.playing:
             self.dt = self.clock.tick(FPS) / 1000.0
-            print(self.time_counter)
-            print(self.night_brightnes)
             self.events()
             if not self.paused:
                 self.update()
@@ -143,21 +136,6 @@ class New_level:
         self.portal_list.update()
         self.camera.update(self.player)
 
-        ##### DAY AND NIGHT
-        if self.time_counter < self.time:
-            raw = (self.dt / 10) * FPS
-            self.time_counter += raw
-        else:
-            self.time_counter = 0
-
-        if self.time_counter < 303:
-            if 302 >= self.time_counter >= 206:
-                self.night_brightnes -= 0.2
-
-        if self.time_counter > 790:
-            if 890 >= self.time_counter >= 790:
-                self.night_brightnes += 0.2
-
     def draw(self):
         self.screen.fill(RED)
         self.screen.blit(self.map_image, self.camera.apply_rect(self.map_rect))
@@ -171,8 +149,6 @@ class New_level:
         for sprite in self.npc_animations_list:
             if sprite.visible == 1:
                 self.screen.blit(sprite.image, self.camera.apply(sprite))
-        self.night.fill((10, 10, 30, int(self.night_brightnes)))
-        self.screen.blit(self.night, (0, 0))
 
         for effect in self.effects_list:
             effect.update()

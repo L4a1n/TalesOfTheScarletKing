@@ -28,15 +28,15 @@ try:
             print(f'Using primary monitor: {main_monitor}')
         else:
             print('No primary monitor found, using first monitor instead')
+        WIDTH, HEIGHT = main_monitor.width, main_monitor.height
 except:
     print('No monitors found')
-WIDTH, HEIGHT = main_monitor.x, main_monitor.y
 
 FPS = 60
 GAME_PLAYER_LOC = "a"
 TITLE = "Tales of the Scarlet King"
 BGCOLOR = (0, 0, 120)
-FIRST_LEVEL = 'lvl_1.tmx'
+FIRST_LEVEL = 'lvl_2.tmx'
 game_folder = path.dirname(__file__)
 font_folder = path.join(game_folder, 'fonts')
 TITLE_FONT = path.join(font_folder, 'Boldhead.otf')
@@ -57,7 +57,7 @@ PLAYER_FRICTION = -0.12
 PLAYER_GRAV = 0.8
 PLAYER_JUMP = 28
 PLAYER_HEALTH = 100
-PLAYER_CURRENT_LEVEL = 'lvl_1.tmx'
+PLAYER_CURRENT_LEVEL = 'lvl_2.tmx'
 
 # NPC settings
 NPC_ACC = 0.9

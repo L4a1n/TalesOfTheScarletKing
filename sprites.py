@@ -92,7 +92,7 @@ class Player(pg.sprite.Sprite):
         self.load_images()
         self.image = self.anim_idle1_r[0]
         self.rect = self.image.get_rect()
-        print("test: ", self.rect)
+        print("player_hitbox: ", self.rect)
         self.rect.center = (x, y)
         self.hit_rect = PLAYER_HIT_RECT
         self.hit_rect.bottom = self.rect.bottom
@@ -549,7 +549,6 @@ class Player(pg.sprite.Sprite):
                 self.rect = self.image.get_rect()
                 self.rect.bottom = bottom
         self.mask = pg.mask.from_surface(self.image)
-        print(self.image)
 
 
 class NPC(pg.sprite.Sprite):
@@ -771,8 +770,6 @@ class Portal(pg.sprite.DirtySprite):
         if self.collide.Y:
             self.active = True
         if self.active:
-            print("test")
             self.game.next_level = self.type
             self.game.player_location = self.name
-            print(self.game.next_level)
             self.game.playing = False

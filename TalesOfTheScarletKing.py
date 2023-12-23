@@ -13,7 +13,7 @@ class Game:
     def __init__(self):
         pg.mixer.pre_init(44100, -16, 1, 2048)
         pg.init()
-        self.screen = pg.display.set_mode((WIDTH, HEIGHT), pg.FULLSCREEN)
+        self.screen = pg.display.set_mode((WIDTH, HEIGHT))
         pg.display.set_caption(TITLE)
         self.clock = pg.time.Clock()
         self.load_data()
