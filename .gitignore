@@ -2,4 +2,4 @@
 __pycache__/tilemap.cpython-311.pyc
 *.pyc
 
-/venv
+venv
