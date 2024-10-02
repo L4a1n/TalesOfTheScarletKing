@@ -2,7 +2,6 @@ from settings import *
 import random
 from tilemap import collide_hit_rect
 from animations import Active_Animation
-import pytweening as tween
 vec = pg.math.Vector2
 all_animations = []
 
